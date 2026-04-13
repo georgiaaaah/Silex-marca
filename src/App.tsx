@@ -1,7 +1,9 @@
 import React, { ReactNode } from "react";
 import { motion } from "motion/react";
 import { ArrowRight, Layout, Smartphone, CreditCard, Monitor, Box, Layers, Zap, ShieldCheck } from "lucide-react";
-import { Logo, Symbol } from "./components/Logo";
+import LogoLight from "./components/svg/LogoLight";
+import LogoLightComSubtitulo from "./components/svg/LogoLightComSubtitulo";
+import LogoDark from "./components/svg/LogoDark";
 
 const Section = ({ children, className = "", id }: { children: ReactNode; className?: string; id?: string }) => (
   <section id={id} className={`py-32 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto ${className}`}>
@@ -27,7 +29,7 @@ export default function App() {
     <div className="min-h-screen bg-silex-offwhite selection:bg-silex-orange selection:text-white">
       {/* Navigation */}
       <nav className="absolute top-0 left-0 w-full z-50 px-6 py-8 flex justify-between items-center transition-all duration-500 hover:bg-silex-slate-deep/10 backdrop-blur-sm">
-        <img src="/imagens/svg/logo light.svg" alt="Silex" className="h-6" />
+        <LogoLight className="h-6" />
         <div className="hidden md:flex gap-10 text-[10px] uppercase tracking-[0.3em] text-white/50 font-medium">
           <a href="#manifesto" className="hover:text-silex-orange transition-colors">Manifesto</a>
           <a href="#sistema" className="hover:text-silex-orange transition-colors">Sistema</a>
@@ -71,7 +73,7 @@ export default function App() {
         >
           <Label><span className="text-silex-orange font-semibold">IDENTIDADE VISUAL 2026</span></Label>
           <div className="mb-12 max-w-4xl">
-            <img src="/imagens/svg/logo light com subtitulo.svg" alt="SILEX" className="w-full text-white" />
+            <LogoLightComSubtitulo className="w-full text-white" />
           </div>
           <div className="flex flex-col md:flex-row gap-12 items-start md:items-center">
             <p className="text-white/50 max-w-sm text-xl font-light leading-relaxed">
@@ -232,7 +234,7 @@ export default function App() {
           <div className="flex flex-col space-y-6">
             <div className="aspect-[3/2] bg-silex-slate-deep rounded-[40px] flex items-center justify-center p-12 group overflow-hidden relative shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-              <img src="/imagens/svg/logo light.svg" alt="Silex Logo Light" className="w-full max-w-[320px] relative z-10 transition-transform duration-700 group-hover:scale-110" />
+              <LogoLight className="w-full max-w-[320px] relative z-10 transition-transform duration-700 group-hover:scale-110" />
             </div>
             <div className="flex justify-between items-center px-6">
               <span className="text-[10px] text-silex-slate/40 uppercase tracking-[0.2em] font-semibold">Aplicação Principal (Dark)</span>
@@ -246,7 +248,7 @@ export default function App() {
           <div className="flex flex-col space-y-6">
             <div className="aspect-[3/2] bg-silex-offwhite rounded-[40px] border border-silex-slate/10 flex items-center justify-center p-12 group overflow-hidden relative">
               <div className="absolute inset-0 bg-gradient-to-br from-silex-slate/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-              <img src="/imagens/svg/logo dark.svg" alt="Silex Logo Dark" className="w-full max-w-[320px] relative z-10 transition-transform duration-700 group-hover:scale-110" />
+              <LogoDark className="w-full max-w-[320px] relative z-10 transition-transform duration-700 group-hover:scale-110" />
             </div>
             <div className="flex justify-between items-center px-6">
               <span className="text-[10px] text-silex-slate/40 uppercase tracking-[0.2em] font-semibold">Aplicação Secundária (Light)</span>
@@ -498,7 +500,7 @@ export default function App() {
             </div>
             <div className="aspect-video bg-silex-slate-deep rounded-3xl overflow-hidden relative p-8 shadow-inner">
               <div className="flex justify-between items-center mb-16">
-                <img src="/imagens/svg/logo light.svg" alt="Silex" className="h-4" />
+                <LogoLight className="h-4" />
                 <div className="flex gap-6">
                   <div className="w-12 h-1 bg-white/10 rounded-full" />
                   <div className="w-12 h-1 bg-white/10 rounded-full" />
@@ -542,7 +544,7 @@ export default function App() {
                 <div className="w-64 h-[500px] bg-[#000] rounded-[3.5rem] border-[8px] border-silex-slate p-6 relative overflow-hidden shadow-2xl">
                   <div className="w-24 h-6 bg-silex-slate absolute top-0 left-1/2 -translate-x-1/2 rounded-b-3xl z-20" />
                   <div className="mt-12">
-                     <img src="/imagens/svg/logo light.svg" alt="Silex" className="h-5 mb-12" />
+                    <LogoLight className="h-5 mb-12" />
                      <div className="space-y-6">
                        <div className="h-32 w-full bg-white/5 rounded-2xl border border-white/5" />
                        <div className="h-32 w-full bg-white/5 rounded-2xl border border-white/5" />
