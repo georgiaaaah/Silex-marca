@@ -29,15 +29,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-silex-offwhite selection:bg-silex-orange selection:text-white">
-      {/* Navigation */}
-      <nav className="absolute top-0 left-0 w-full z-50 px-6 py-8 flex justify-between items-center transition-all duration-500 hover:bg-silex-slate-deep/10 backdrop-blur-sm">
-        <LogoLight className="h-6" />
-        <div className="hidden md:flex gap-10 text-[10px] uppercase tracking-[0.3em] text-white/50 font-medium">
-          <a href="#manifesto" className="hover:text-silex-orange transition-colors">Manifesto</a>
-          <a href="#sistema" className="hover:text-silex-orange transition-colors">Sistema</a>
-          <a href="#aplicacoes" className="hover:text-silex-orange transition-colors">Aplicações</a>
-        </div>
-      </nav>
+
 
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden bg-silex-slate-deep">
