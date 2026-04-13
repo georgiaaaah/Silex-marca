@@ -264,7 +264,7 @@ export default function App() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 relative z-10">
           <div className="lg:col-span-6">
             <Label><span className="text-white/40">04 — O Símbolo</span></Label>
-            <h2 className="text-5xl md:text-6xl font-display mb-12 leading-[1.1] tracking-tighter">
+            <h2 className="text-4xl md:text-6xl font-display mb-12 leading-[1.1] tracking-tighter">
               UMA EDIFICAÇÃO <br />
               VISTA EM <span className="text-silex-orange">CORTE</span>
             </h2>
