@@ -4,6 +4,8 @@ import { ArrowRight, Layout, Smartphone, CreditCard, Monitor, Box, Layers, Zap, 
 import LogoLight from "./components/svg/LogoLight";
 import LogoLightComSubtitulo from "./components/svg/LogoLightComSubtitulo";
 import LogoDark from "./components/svg/LogoDark";
+import FaviconDark from "./components/svg/FaviconDark";
+import FaviconLight from "./components/svg/FaviconLight";
 
 const Section = ({ children, className = "", id }: { children: ReactNode; className?: string; id?: string }) => (
   <section id={id} className={`py-32 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto ${className}`}>
@@ -300,7 +302,7 @@ export default function App() {
               <div className="absolute inset-0 bg-silex-orange/20 blur-[100px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
               <div className="relative w-72 h-72 md:w-96 md:h-96 bg-white/5 rounded-[60px] border border-white/10 backdrop-blur-xl flex items-center justify-center p-12 shadow-2xl overflow-hidden">
                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
-                <img src="/imagens/svg/favicon light.svg" alt="Símbolo SILEX" className="w-full h-full relative z-10 transition-transform duration-1000 group-hover:scale-110 group-hover:rotate-3" />
+                <FaviconLight className="w-full h-full relative z-10 transition-transform duration-1000 group-hover:scale-110 group-hover:rotate-3" />
               </div>
             </div>
           </div>
@@ -468,11 +470,11 @@ export default function App() {
         <Label>06 — Favicon & Micro-identidade</Label>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
           <div className="flex flex-col items-center justify-center p-12 bg-silex-offwhite rounded-3xl border border-silex-slate/5">
-            <img src="/imagens/svg/favicon dark.svg" alt="Favicon Dark" className="w-16 h-16 mb-6 drop-shadow-lg" />
+            <FaviconDark className="w-16 h-16 mb-6 drop-shadow-lg" />
             <span className="text-xs text-silex-slate/40 uppercase tracking-widest text-center">Favicon Dark</span>
           </div>
           <div className="flex flex-col items-center justify-center p-12 bg-silex-slate rounded-3xl">
-            <img src="/imagens/svg/favicon light.svg" alt="Favicon Light" className="w-16 h-16 mb-6 drop-shadow-lg" />
+            <FaviconLight className="w-16 h-16 mb-6 drop-shadow-lg" />
             <span className="text-xs text-white/40 uppercase tracking-widest">Favicon Light</span>
           </div>
         </div>

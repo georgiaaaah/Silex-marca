@@ -26,7 +26,7 @@ const SvgFaviconLight = (props) => (
       x={869.779}
       y={2042.88}
       style={{
-        fontFamily: "&quot",
+        fontFamily: "'Zen Dots', cursive",
         fontSize: "1743.723px",
         fill: "#f6f6f4",
       }}
