@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4999 1060" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1280.637404,-1086.891727)">
+        <g transform="matrix(1,0,0,2.299799,0,0)">
+            <g id="SILEX-de-baixo" serif:id="SILEX de baixo" transform="matrix(0.759994,0,0,0.330461,579.853789,255.325941)">
+                <g transform="matrix(1743.722593,0,0,1743.722593,7516.849788,2042.879599)">
+                </g>
+                <text x="869.779px" y="2042.88px" style="font-family:'ZenDots-Regular', 'Zen Dots';font-size:1743.723px;fill:rgb(246,246,244);">SILEX</text>
+            </g>
+            <g transform="matrix(0.990188,0,0,0.434821,57.080885,-0)">
+                <path d="M5578.54,1656.668L5735.214,1656.668L5735.214,1580.533L5612.146,1580.532" style="fill:rgb(252,125,52);stroke:rgb(252,125,52);stroke-opacity:0;stroke-width:6.7px;"/>
+            </g>
+            <g transform="matrix(1,0,0,0.434821,155.647935,-2.285936)">
+                <path d="M5082.478,1197.778L5425.217,1661.925L5458.451,1585.787L5174.218,1197.778L5082.478,1197.778Z" style="fill:rgb(252,125,52);stroke:black;stroke-opacity:0;stroke-width:6.67px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,2.299799,0,0)">
+            <g id="acento" transform="matrix(0.449418,0.512013,-1.347773,0.223669,2592.784389,-950.553622)">
+                <path d="M2468.907,712.06L2485.577,874.556L2408.689,848.918L2468.907,712.06Z" style="fill:rgb(252,125,52);"/>
+            </g>
+        </g>
+    </g>
+</svg>
