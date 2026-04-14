@@ -23,7 +23,7 @@ const SvgLogoLightComSubtitulo = (props) => (
       }}
       transform="matrix(.76 0 0 .76 -700.784 -598.419)"
     >
-      {"SILEX"}
+      {"SÍLEX"}
     </text>
     <path
       d="M5578.54 1656.668h156.674v-76.135l-123.068-.001"

@@ -105,7 +105,7 @@ export default function App() {
           </div>
           <div className="lg:col-span-7 lg:col-start-6 space-y-8 text-lg font-light leading-relaxed text-silex-slate/80">
             <motion.p {...fadeIn}>
-              A marca SILEX foi projetada para ocupar um vazio estético no mercado de alto padrão brasileiro: o <strong>Luxo de Desempenho</strong>. Enquanto o mercado se concentra na estética superficial — a "casca" —, a SILEX se posiciona como a inteligência que sustenta a estrutura.
+              A marca SÍLEX foi projetada para ocupar um vazio estético no mercado de alto padrão brasileiro: o <strong>Luxo de Desempenho</strong>. Enquanto o mercado se concentra na estética superficial — a "casca" —, a SÍLEX se posiciona como a inteligência que sustenta a estrutura.
             </motion.p>
             <motion.p {...fadeIn}>
               O nome remete à rocha sílex — a origem da primeira faísca humana. A identidade visual traduz essa transição: da solidez da matéria bruta à velocidade da tecnologia digital. Uma construtora que não apenas ergue paredes, mas entrega sistemas.
@@ -480,7 +480,7 @@ export default function App() {
           <motion.div {...fadeIn} className="md:col-span-2 group relative overflow-hidden rounded-[60px] aspect-[21/9] bg-silex-slate-deep">
             <img 
               src="/imagens/fachada.webp" 
-              alt="Contexto Arquitetônico e Fachada Silex" 
+              alt="Contexto Arquitetônico e Fachada SÍLEX" 
               className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000"
             />
 
@@ -572,12 +572,12 @@ export default function App() {
             MARCA <span className="text-silex-orange">VENDE?</span>
           </h2>
           <p className="text-white/50 font-light text-xl leading-relaxed mb-16 max-w-2xl mx-auto">
-            Esta marca comunica que a SILEX não é apenas uma equipe que constrói — é uma plataforma de engenharia e gestão que entrega uma máquina de morar. É uma identidade atemporal e escalável.
+            Esta marca comunica que a SÍLEX não é apenas uma equipe que constrói — é uma plataforma de engenharia e gestão que entrega uma máquina de morar. É uma identidade atemporal e escalável.
           </p>
 
           <div className="space-y-4">
             <p className="text-[10px] uppercase tracking-[0.5em] text-white/20">
-              © 2026 SILEX. TODOS OS DIREITOS RESERVADOS.
+              © 2026 SÍLEX. TODOS OS DIREITOS RESERVADOS.
             </p>
             <div className="flex justify-center gap-8 text-[8px] uppercase tracking-[0.3em] text-white/10">
               <span>Fortaleza, Brasil</span>
