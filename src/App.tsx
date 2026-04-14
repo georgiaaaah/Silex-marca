@@ -105,7 +105,7 @@ export default function App() {
           </div>
           <div className="lg:col-span-7 lg:col-start-6 space-y-8 text-lg font-light leading-relaxed text-silex-slate/80">
             <motion.p {...fadeIn}>
-              A marca SILEX foi projetada para ocupar um vazio estético no mercado de alto padrão brasileiro: o <strong>Luxo de Desempenho</strong>. Enquanto o mercado se concentra na estética superficial — a "casca" —, a Silex se posiciona como a inteligência que sustenta a estrutura.
+              A marca SILEX foi projetada para ocupar um vazio estético no mercado de alto padrão brasileiro: o <strong>Luxo de Desempenho</strong>. Enquanto o mercado se concentra na estética superficial — a "casca" —, a SILEX se posiciona como a inteligência que sustenta a estrutura.
             </motion.p>
             <motion.p {...fadeIn}>
               O nome remete à rocha sílex — a origem da primeira faísca humana. A identidade visual traduz essa transição: da solidez da matéria bruta à velocidade da tecnologia digital. Uma construtora que não apenas ergue paredes, mas entrega sistemas.
